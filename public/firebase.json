@@ -1,0 +1,22 @@
+{
+  "hosting": {
+
+    "public": "public",  
+
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+
+    "redirects": [ {
+      "source": "/home.html",
+      "destination": "https://it-startup-blog.web.app/",
+      "type": 301
+    }, {
+      "source": "/firebase/**",
+      "destination": "https://www.firebase.com",
+      "type": 302
+    } ]
+  }
+}
